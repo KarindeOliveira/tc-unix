@@ -1,0 +1,20 @@
+root@c352f8b77046:/# cd /home                                                                                                                  
+root@c352f8b77046:/home# cd ..                                                                                                                 
+root@c352f8b77046:/# cd /tmp                                                                                                                   
+root@c352f8b77046:/tmp# cd /home                                                                                                               
+root@c352f8b77046:/home# cd ..                                                                                                                 
+root@c352f8b77046:/# pwd /tmp                                                                                                                  
+/                                                                                                                                              
+root@c352f8b77046:/# cd tmp                                                                                                                    
+root@c352f8b77046:/tmp# pwd /tmp                                                                                                               
+/tmp                                                                                                                                           
+root@c352f8b77046:/tmp# echo $HOME /home/karin                                                                                                 
+/root /home/karin                                                                                                                              
+root@c352f8b77046:/tmp# source ./0-bring_me_home                                                                                               
+bash: ./0-bring_me_home: No such file or directory                                                                                             
+root@c352f8b77046:/tmp# touch 0-bring_me_home                                                                                                  
+root@c352f8b77046:/tmp# source ./0-bring_me_home                                                                                               
+root@c352f8b77046:/tmp# pwd /home/karin                                                                                                        
+/tmp                                                                                                                                           
+root@c352f8b77046:/tmp# ^C                                                                                                                     
+
